@@ -1,0 +1,27 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: sans-serif;
+  font-weight: 400;
+  height: 100vh;
+  color: #333;
+  background-image: linear-gradient(to top left, #e3e27f 0%, #eb81e8 100%);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  position: relative;
+  width: 100rem;
+  height: 60rem;
+  background-color: rgba(255, 255, 255, 0.35);
+  backdrop-filter: blue(200px);
+  filter: blur();
+  box-shadow: 0 3rem 5rem rgba(241, 58, 153, 0.8);
+  border-radius: 9px;
+  overflow: hidden;
+  display: flex;
+}
