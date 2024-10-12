@@ -18,7 +18,7 @@ main {
   width: 100rem;
   height: 60rem;
   background-color: rgba(235, 176, 230, 0.8);
-  backdrop-filter: blue(200px);
+  backdrop-filter: blur(200px);
   filter: blur();
   box-shadow: 0 3rem 5rem rgba(237, 127, 184, 0.8);
   border-radius: 9px;
@@ -123,7 +123,6 @@ main {
 .btn--roll {
   top: 39.3rem;
 }
-
 .btn--hold {
   top: 46.1rem;
 }
@@ -144,4 +143,18 @@ main {
   transform: translateX(-50%);
   height: 10rem;
   box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+}
+
+.player--winner {
+  background-color: #2f2f2f;
+}
+
+.player--winner .name {
+  font-weight: 700;
+  color: #b34893;
+}
+
+.hidden {
+  display: none;
 }
