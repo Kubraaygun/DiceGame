@@ -15,3 +15,7 @@ Bu proje, iki oyuncunun sırayla zar atarak puan kazanmaya çalıştığı basit
 - Html
 - Css
 - JavaScript
+
+## Ekran Görüntüsü
+
+![](dice.png)
